@@ -1,0 +1,23 @@
+{
+  "name": "ninepointcircle.net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauriagrawal74/ninepointcircle.net.git"
+  },
+  "keywords": [],
+  "author": "Gauri Agrawal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gauriagrawal74/ninepointcircle.net/issues"
+  },
+  "homepage": "https://github.com/gauriagrawal74/ninepointcircle.net#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

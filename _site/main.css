@@ -1,0 +1,24 @@
+/* CSS */
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  }
+  @supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+  }
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-top: 10em;
+}
+
+.post-heading {
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+}
+
+.post-heading:hover {
+    color: #FF958C;
+}
