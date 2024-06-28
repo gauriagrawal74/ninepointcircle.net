@@ -6,7 +6,7 @@
   <!-- SEO -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hi, this is a post</title>
+  <title>This is my second post</title>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://rsms.me/">
@@ -35,12 +35,19 @@
 
 <body>
   <div class="container">
-    <h1>Hi this is a random post</h1>
-<p>Here is some more math</p>
-<p>$$ \sin (x + y) = \sin x \cos y + \cos x \sin y $$</p>
-<p>blah blah</p>
-<p>We can also do cosine:</p>
-<p>$$ \cos (x + y) = \cos x \cos y - \sin x \sin y $$</p>
+    <h1>This is a heading</h1>
+<p>Aligned math?</p>
+<p>\begin{align}
+x &amp;= y + z \
+y &amp;= z + x \
+\end{align}</p>
+<p>This isn't working. Why? Because \ is parsed as a single .
+This is why we have to do</p>
+<p>\begin{align}
+x &amp;= y + z \\
+y &amp;= z + x \\
+\end{align}</p>
+<p>Other than, just simple math ($x + 4$)</p>
 
   </div>
 </body>
