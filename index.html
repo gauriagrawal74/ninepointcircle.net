@@ -15,11 +15,31 @@
 </head>
 <body>
     <div class="container">
-        <h1> Nine Point Circle </h1>
-        {%- for post in collections.post -%}
+                
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">Nine Point Circle</h2>
+                </div>
+    
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CLASSES</a></li>
+                        <li><a href="#">VIDEOS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+               
+                
+                
+    <!--
+            
+          {%- for post in collections.post -%}
             <a href="{{post.url}}" class="post-heading">{{ post.data.title }}</a>
             <br />
         {%- endfor -%}
+        -->
     </div>
 </body>
 </html>
